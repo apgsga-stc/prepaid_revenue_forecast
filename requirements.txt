@@ -1,0 +1,23 @@
+# pip install --proxy=http://proxy1.swi.srse.net:8080 -U -r pip
+# pip install --proxy=http://proxy1.swi.srse.net:8080 -U -r requirements.txt
+# pip freeze > requirements_freeze.txt
+# pip install --proxy=http://proxy1.swi.srse.net:8080 requirements_freeze.txt
+
+
+
+# dev tools
+pandas
+numpy
+sklearn
+jupyterlab
+jupyterlab-code-formatter # will be shown as installed extension in jupyter-lab
+jupyter_contrib_nbextensions # will be shown as installed extension in jupyter-lab
+pandas-profiling[notebook]
+openpyxl
+black
+nb_black
+
+statsmodels
+
+plotly
+pyarrow
